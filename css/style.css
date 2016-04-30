@@ -1,0 +1,18 @@
+.table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
+    border: none;
+}
+
+td.input-form-side-by-side:first-child {
+  padding-right: 4px;
+  width: 50%;
+}
+
+td.input-form-side-by-side:last-child {
+  padding-left: 4px;
+  width: 50%;
+}
+
+body {
+  background-image: url(../img/bg.png);
+  background-repeat: repeat;
+}
